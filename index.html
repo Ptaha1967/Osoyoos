@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scenic Penthouse by Wineries & Lake</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #3a3a3a, #2b2b2b);
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #2b2b2b;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .calendar, .amenities, .booking-form, .reviews, .map, .rules {
+      margin-top: 3rem;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border-radius: 8px;
+    }
+    .amenities ul {
+      columns: 2;
+      padding-left: 0;
+      list-style: none;
+    }
+    .amenities li {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    .amenities li::before {
+      content: "\f00c";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #4CAF50;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea, button {
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background-color: #2b2b2b;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #444;
+    }
+    .review {
+      border-left: 4px solid #4CAF50;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      background: #fafafa;
+      border-radius: 6px;
+    }
+    .review strong {
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #888;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Scenic Penthouse by Wineries & Lake</h1>
+  </header>
+
+  <div class="container">
+    <!-- Existing content -->
+
+    <div class="rules">
+      <h2>House Rules</h2>
+      <ul>
+        <li>Pets allowed (service animals must be accommodated)</li>
+        <li>Events allowed</li>
+        <li>Smoking, vaping, and e-cigarettes allowed</li>
+        <li>Quiet hours: 9:00 p.m. – 9:00 a.m.</li>
+        <li>Commercial photography and filming allowed</li>
+        <li>Maximum number of guests: 77</li>
+        <li>Check-in: from 3:00 p.m. (flexible)</li>
+        <li>Checkout: by 10:00 a.m.</li>
+        <li>Additional expectations may apply—please respect the space and neighbors</li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      &copy; 2025 Scenic Penthouse in Osoyoos
+    </footer>
+  </div>
+</body>
+</html>
